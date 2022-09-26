@@ -18,7 +18,7 @@ NOTE2 - Contribution you are providing must be applicable in web and valid.
 
 EXAMPLE- CHANGE THE BUTTON COLOR TO BLACK-
 
-   .btn{
+     .btn{
          padding: 12px 15px;
          color: black;
        }
