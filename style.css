@@ -94,9 +94,13 @@ body {
     radial-gradient(circle at top left,#fd00da,#19d7f8);
     background-origin: border-box;
     background-clip: content-box,border-box;
-    display: inline-flex; 
+    display: inline-flex;
+    width: 11rem; 
 }
-
+.play-btn:hover{
+    background: radial-gradient(circle at top left,#fd00da,#19d7f8);
+    border: 2px;
+}
 .btn{
     padding: 12px 15px;
     color: white;
@@ -104,10 +108,13 @@ body {
 
 .more{
     cursor: pointer;
-    font-size: 9px;
+    font-size: 1rem;
+    margin-top: 0.75rem;
+    
+    letter-spacing: 1.2px;
     text-decoration: none;
     color: yellow;
-    margin-left: 20px;
+    margin-left: 0.1rem;
 
 }
 
