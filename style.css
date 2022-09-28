@@ -129,9 +129,13 @@ body {
     radial-gradient(circle at top left,#fd00da,#19d7f8);
     background-origin: border-box;
     background-clip: content-box,border-box;
-    display: inline-flex; 
+    display: inline-flex;
+    width: 11rem; 
 }
-
+.play-btn:hover{
+    background: radial-gradient(circle at top left,#fd00da,#19d7f8);
+    border: 2px;
+}
 .btn{
     padding: 12px 15px;
     color: white;
@@ -139,10 +143,13 @@ body {
 
 .more{
     cursor: pointer;
-    font-size: 9px;
+    font-size: 1rem;
+    margin-top: 0.75rem;
+    
+    letter-spacing: 1.2px;
     text-decoration: none;
     color: yellow;
-    margin-left: 20px;
+    margin-left: 0.1rem;
 
 }
 
@@ -154,10 +161,15 @@ body {
 }
 
 #copyright{
-    padding-left: 1260px;
-    /*padding-top: 620px;*/
-    color: #797f98; 
-    text-align: right;
-    position: fixed;
-    bottom: 5px;
+    background-color: rgb(15, 15, 18);
+    bottom: 0;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100vw;
+    font-size: medium;
+    text-align: center;
+    color:aliceblue ;
+}
+.bold{
+    font-weight: 700;
 }
