@@ -6,7 +6,40 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 }
+.navigation{
+    display:flex;
+    flex-direction: column;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: aqua;
+    order: 1;    
+    
+}
 
+.links{
+    text-decoration: none;
+    color:#797f98;
+
+}
+.links:hover{
+    color: aqua;
+    transition: 0.6s ease-in-out;
+}
+.items{
+    order: 2;
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    font-weight: bold;
+    color:#797f98;
+    font-family:"Times New Roman", serif;   
+    text-decoration: none;
+    font-size: 1.2rem;
+}
 
 .title{
     font-family: Arial, Helvetica, sans-serif;
@@ -15,7 +48,9 @@ body {
 }
 
 .logo{
-    width:20px;
+    width:3rem;
+    background-color: black;
+    border-radius: 100%;
 }
 
 .sign-up{
