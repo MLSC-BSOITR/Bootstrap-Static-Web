@@ -62,7 +62,7 @@ body {
     border: 2px solid transparent;
     border-radius: 20px;  /* border curves*/
     background: linear-gradient(#414659,#414659),       /*inside the box*/
-        radial-gradient(circle at top left,#fd00da,#19d7f8);
+    radial-gradient(circle at top left,#fd00da,#19d7f8);
     background-origin: border-box;
     background-clip: content-box,border-box;
 }
@@ -92,18 +92,21 @@ body {
     font-size: 20px;
 }
 
-
-.main-content{
-
-    position: absolute;
+.home-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+/* .main-content{
+    position: absolute;
+} */
 
 .content-title{
     /*font-family: cursive;*/
     padding-left: 80px;
     color: rgba(255, 255, 255, 0.904);  
     font-family: 'IBM Plex Serif', serif;
-    font-size: 43px;
+    font-size: 40px;
     padding-top: 60px;
 }
 
@@ -111,7 +114,8 @@ body {
     padding-left: 80px;
     color: rgb(228, 225, 225);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 25px;
+    
 }
 
 .pic{
