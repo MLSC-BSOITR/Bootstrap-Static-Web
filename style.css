@@ -6,6 +6,9 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 }
+
+/* Navbar- Navigation bar of the website */
+
 .navigation{
     display:flex;
     flex-direction: column;
@@ -91,7 +94,7 @@ body {
     text-decoration: none;
     font-size: 20px;
 }
-
+/* content */
 .home-content{
     display: flex;
     flex-direction: row;
@@ -122,6 +125,8 @@ body {
     float:right;
     padding-top: 20px;
 }
+
+/* buttons */
 
 .play-btn{
     margin-left: 80px;
@@ -163,7 +168,7 @@ body {
     margin: 14px;
     display: inline-flex;
 }
-
+/* copyright */
 #copyright{
     background-color: rgb(15, 15, 18);
     bottom: 0;
