@@ -44,6 +44,7 @@ body {
     font-size: 1.2rem;
 }
 
+
 .title{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 55px;
@@ -58,7 +59,7 @@ body {
 
 .sign-up{
     top: 20px;
-    right: 510px;
+    right: 7%;
     position: absolute;
     text-decoration: none;
     color: azure;
