@@ -5,15 +5,15 @@ body {
   margin-left: 0px;
   margin-right: 0px;
 }
+
 .navigation {
   display: flex;
   flex-direction: column;
-
-    background-color: #8BBCCC;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+  background-color: #8BBCCC;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* Navbar- Navigation bar of the website */
@@ -21,8 +21,8 @@ body {
 .navigation{
     display:flex;
     flex-direction: column;
-
 }
+
 .name {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
@@ -34,10 +34,12 @@ body {
   text-decoration: none;
   color: #797f98;
 }
+
 .links:hover {
   color: aqua;
   transition: 0.6s ease-in-out;
 }
+
 .items {
   order: 2;
   display: flex;
@@ -57,19 +59,11 @@ body {
   font-size: 55px;
   color: blue;
 
-.title{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 55px;
-    color: blue;
-
-}
-
 .logo {
   width: 50px;
   background-color: black;
   border-radius: 100%;
 }
-
 
 .sign-up {
   top: 20px;
@@ -80,24 +74,10 @@ body {
   border: 2px solid transparent;
   border-radius: 20px; /* border curves*/
   background: linear-gradient(#414659, #414659),
-    /*inside the box*/ radial-gradient(circle at top left, #fd00da, #19d7f8);
+  /*inside the box*/ radial-gradient(circle at top left, #fd00da, #19d7f8);
   background-origin: border-box;
   background-clip: content-box, border-box;
-.sign-up{
-    top: 20px;
-    right: 7%;
-    position: absolute;
-    text-decoration: none;
-    color: azure;
-    border: 2px solid transparent;
-    border-radius: 20px;  /* border curves*/
-    background: linear-gradient(#414659,#414659),       /*inside the box*/
-    radial-gradient(circle at top left,#fd00da,#19d7f8);
-    background-origin: border-box;
-    background-clip: content-box,border-box;
-
 }
-
 .sign-up span {
   display: block;
   padding: 8px 22px;
@@ -107,6 +87,14 @@ body {
   color: #47d7ff;
 }
 
+.item-4:hover {
+  color: #47d7ff;
+}
+  
+.item-5:hover {
+  color: #47d7ff;
+}
+  
 .menubar {
   height: 20%;
   word-spacing: 30px;
@@ -115,19 +103,20 @@ body {
   padding-right: 40px;
 }
 
-
 .after {
   color: #797f98;
   font-family: "Times New Roman", serif;
   text-decoration: none;
   font-size: 20px;
+}
+  
 /* content */
 .home-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
+  
 /* .main-content{
     position: absolute;
 } */
@@ -145,36 +134,18 @@ body {
   padding-top: 60px;
   color: #19d7f8;
   font-weight: bold;
-.content-title{
-    /*font-family: cursive;*/
-    padding-left: 80px;
-    color: rgba(255, 255, 255, 0.904);  
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 40px;
-    padding-top: 60px;
 }
 
 .content{
-    padding-left: 80px;
-    color: rgb(228, 225, 225);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    
-
-}
-
-.content {
-    padding-top: 20px;
   padding-left: 80px;
   color: rgb(228, 225, 225);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
+  font-size: 25px;
   width:70%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
 .pic {
@@ -188,17 +159,18 @@ body {
   color: white;
   border: 2px solid transparent;
   border-radius: 50px;
-  background: linear-gradient(#414659, #414659),
-    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background: linear-gradient(#414659, #414659), radial-gradient(circle at top left, #fd00da, #19d7f8);
   background-origin: border-box;
   background-clip: content-box, border-box;
   display: inline-flex;
   width: 11rem;
 }
+  
 .play-btn:hover {
   background: radial-gradient(circle at top left, #fd00da, #19d7f8);
   border: 2px;
 }
+  
 .btn {
   padding: 12px 15px;
   color: white;
@@ -208,7 +180,6 @@ body {
   cursor: pointer;
   font-size: 1rem;
   margin-top: 0.75rem;
-
   letter-spacing: 1.2px;
   text-decoration: none;
   color: yellow;
@@ -230,6 +201,7 @@ body {
   text-align: center;
   color: aliceblue;
 }
+  
 .bold {
   font-weight: 700;
 }
@@ -249,10 +221,12 @@ body {
     display: inline-flex;
     width: 11rem; 
 }
+  
 .play-btn:hover{
     background: radial-gradient(circle at top left,#fd00da,#19d7f8);
     border: 2px;
 }
+  
 .btn{
     padding: 12px 15px;
     color: white;
@@ -262,17 +236,17 @@ body {
     cursor: pointer;
     font-size: 1rem;
     margin-top: 0.75rem;
-    
     letter-spacing: 1.2px;
     text-decoration: none;
     color: yellow;
     margin-left: 0.1rem;
-
 }
+  
 .ul{
     margin: 14px;
     display: inline-flex;
 }
+  
 /* copyright */
 .copyright{
     background-color: rgb(15, 15, 18);
@@ -283,9 +257,11 @@ body {
     text-align: center;
     color:aliceblue ;
 }
+  
 .bold{
     font-weight: 700;
 }
+  
 .nike{
     font-family: Helvetica, sans-serif;
     font-size: 2rem;
