@@ -169,9 +169,8 @@ body {
     display: inline-flex;
 }
 /* copyright */
-#copyright{
+.copyright{
     background-color: rgb(15, 15, 18);
-    bottom: 0;
     padding: 1rem 0;
     position: absolute;
     width: 100vw;
