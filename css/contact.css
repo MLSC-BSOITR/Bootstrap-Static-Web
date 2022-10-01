@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .header {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+  }
+  
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../assests/contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Lato", sans-serif;
+    
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+  }
+  p{
+    color: #fff;
+  }
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  .form-container {
+    padding: 3rem 4rem;
+  border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  a {
+    text-decoration: none;
+    display:flex;
+    margin:auto;
+  }
+  .atag {
+    text-decoration: none;
+    width:75px;
+  }
+  .tag{
+    width:60px;
+    margin:0 !important;
+    text-decoration: none;
+    color: #fff;
+  }
+  a .btn {
+    margin-top: 18px;
+    border: 2px solid #137afc;
+    color: #fff;
+    cursor: pointer;
+    background-color:  #137afc;
+    box-shadow: inset 0 0 0 0 #137afc;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: ease-out 0.4s;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    -ms-transition: ease-out 0.4s;
+    -o-transition: ease-out 0.4s;
+  }
+  
+  a .btn {
+    display: block;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    height: 2.4rem;
+    width: 7.1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  a .btn:hover {
+    border: 2px solid #137afc;
+    box-shadow: inset 130px 0 0 0 #fff;
+    color: #137afc;
+  }
+  
