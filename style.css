@@ -15,6 +15,10 @@ body {
   margin-left: 0px;
   margin-right: 0px;
 }
+/* footer{
+  position: relative;
+top: 450px;
+} */
 
 /* Navbar- Navigation bar of the website */
 
@@ -69,9 +73,10 @@ body {
 
 .sign-up {
   top: 20px;
-  right: 510px;
+  right: 0px;
   position: absolute;
   text-decoration: none;
+  width: 139px;
   color: azure;
   border: 2px solid transparent;
   border-radius: 20px; /* border curves*/
@@ -258,6 +263,7 @@ body {
     font-size: medium;
     text-align: center;
     color:aliceblue ;
+    bottom: -258px;
 }
   
 .bold{
