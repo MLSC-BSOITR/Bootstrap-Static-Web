@@ -56,12 +56,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 55px;
   color: blue;
-
-.title{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 55px;
-    color: blue;
-
 }
 
 .logo {
@@ -83,19 +77,6 @@ body {
     /*inside the box*/ radial-gradient(circle at top left, #fd00da, #19d7f8);
   background-origin: border-box;
   background-clip: content-box, border-box;
-.sign-up{
-    top: 20px;
-    right: 7%;
-    position: absolute;
-    text-decoration: none;
-    color: azure;
-    border: 2px solid transparent;
-    border-radius: 20px;  /* border curves*/
-    background: linear-gradient(#414659,#414659),       /*inside the box*/
-    radial-gradient(circle at top left,#fd00da,#19d7f8);
-    background-origin: border-box;
-    background-clip: content-box,border-box;
-
 }
 
 .sign-up span {
@@ -145,13 +126,6 @@ body {
   padding-top: 60px;
   color: #19d7f8;
   font-weight: bold;
-.content-title{
-    /*font-family: cursive;*/
-    padding-left: 80px;
-    color: rgba(255, 255, 255, 0.904);  
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 40px;
-    padding-top: 60px;
 }
 
 .content{
