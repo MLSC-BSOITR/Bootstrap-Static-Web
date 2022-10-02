@@ -93,6 +93,10 @@ top: 450px;
 .sign-up:hover {
   color: #47d7ff;
 }
+.item-1 a.links{
+  text-decoration: underline;
+  color: #797f98;
+}
 
 .item-4:hover {
   color: #47d7ff;
@@ -136,7 +140,7 @@ top: 450px;
   /*font-family: cursive;*/
   padding-left: 80px;
   color: rgba(255, 255, 255, 0.904);
-  font-family: "IBM Plex Serif", serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 43px;
   padding-top: 60px;
   color: #19d7f8;
