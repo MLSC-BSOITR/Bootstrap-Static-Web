@@ -35,7 +35,7 @@
     color: #fff;
   }
   p{
-    color: #fff;
+    color: rgb(111, 55, 55);
   }
   .sr-only:not(:focus):not(:active) {
     clip: rect(0 0 0 0);
