@@ -28,8 +28,9 @@ top: 450px;
 }
 
 .name {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 2rem;
+  font-weight: 600;
   color: aqua;
   order: 1;
 }
@@ -53,7 +54,7 @@ top: 450px;
   gap: 2rem;
   font-weight: bold;
   color: #797f98;
-  font-family: "Times New Roman", serif;
+  font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -94,7 +95,6 @@ top: 450px;
   color: #47d7ff;
 }
 .item-1 a.links{
-  text-decoration: underline;
   color: #797f98;
 }
 
