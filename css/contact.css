@@ -32,10 +32,12 @@
   h1 {
     font-size: 50px;
     font-weight: 900;
-    color: #fff;
+    color: #CCFFFF;
   }
   p{
-    color: #fff;
+
+    color: #CCFFFF;
+
   }
   .sr-only:not(:focus):not(:active) {
     clip: rect(0 0 0 0);
@@ -67,12 +69,12 @@
     width:60px;
     margin:0 !important;
     text-decoration: none;
-    color: #fff;
+    color: #CCFFFF;
   }
   a .btn {
     margin-top: 18px;
     border: 2px solid #137afc;
-    color: #fff;
+    color: #CCFFFF;
     cursor: pointer;
     background-color:  #137afc;
     box-shadow: inset 0 0 0 0 #137afc;

@@ -40,7 +40,7 @@ top: 450px;
 }
 
 .links:hover {
-  color: aqua;
+  color: rgb(219, 219, 16);
   transition: 0.6s ease-in-out;
 }
 
@@ -99,6 +99,7 @@ top: 450px;
 }
 
 .item-4:hover {
+  
   color: #47d7ff;
 }
   
@@ -149,19 +150,27 @@ top: 450px;
 
 .content{
   padding-left: 80px;
-  color: rgb(228, 225, 225);
+  color: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
-  width:70%;
+  width:55%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  opacity: 90%;
+}
+p{
+  width:60vw;
+  height: 30%;
+  text-align: justify ;
 }
 
 .pic {
   float: right;
-  padding-top: 20px;
+  margin-top: -573px;
+  margin-right: -420px;
+  
 }
 
 .play-btn {
