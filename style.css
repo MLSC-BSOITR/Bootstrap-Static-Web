@@ -32,6 +32,7 @@ top: 450px;
   font-size: 2rem;
   color: aqua;
   order: 1;
+  cursor:pointer
 }
 
 .links {
@@ -69,6 +70,7 @@ top: 450px;
   height: 30px;
   background-color: black;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .sign-up {
@@ -290,6 +292,8 @@ p{
     order: 1;    
 }
 
-.home-content{
-  color:#FEFBEA;
+
+.Main_Paragraph{
+  color: white;
 }
+
