@@ -135,6 +135,7 @@ top: 450px;
 
 .main-content {
   position: absolute;
+  justify-content:center;
 }
 
 .content-title {
