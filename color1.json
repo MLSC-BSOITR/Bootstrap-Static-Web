@@ -1,0 +1,10 @@
+
+h1 {
+  color: blue;
+  text-align: left;
+}
+
+p {
+  font-family: verdana;
+  font-size: 22px;
+}
