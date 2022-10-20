@@ -41,22 +41,24 @@ top: 450px;
 }
 
 .links:hover {
-  color: rgb(219, 219, 16);
-  transition: 0.6s ease-in-out;
+  background-color: #2f70a4;    color: #f2f2f2;
+  border-radius: 25px;
+  border: #72B1E4;
+  padding: 7px;
 }
 
 .items {
   order: 2;
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  align-items: flex-start;
+  display: inline-flex;
+  list-style-type: style none;;
+  justify-content: right;
   gap: 2rem;
   font-weight: bold;
   color: #797f98;
   font-family: "Times New Roman", serif;
   text-decoration: none;
   font-size: 1.2rem;
+  text-decoration: none;
 }
 
 .title {
@@ -75,8 +77,6 @@ top: 450px;
 
 .sign-up {
   top: 20px;
-  right: 5px;
-  position: absolute;
   text-decoration: none;
   width: 139px;
   color: azure;
@@ -86,11 +86,9 @@ top: 450px;
   /*inside the box*/ radial-gradient(circle at top left, #fd00da, #19d7f8);
   background-origin: border-box;
   background-clip: content-box, border-box;
+  margin-right: 40px;
 }
-.sign-up span {
-  display: block;
-  padding: 8px 22px;
-}
+
 
 .sign-up:hover {
   color: #47d7ff;
@@ -113,7 +111,7 @@ top: 450px;
   height: 20%;
   word-spacing: 30px;
   float: right;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-right: 40px;
 }
 
@@ -142,17 +140,17 @@ top: 450px;
 .content-title {
   /*font-family: cursive;*/
   padding-left: 80px;
-  color: rgba(255, 255, 255, 0.904);
   font-family: 'Ubuntu', sans-serif;
   font-size: 43px;
-  padding-top: 60px;
-  color: #19d7f8;
+  padding: 40px;
+  color: #209afd;
   font-weight: bold;
+  background-color: #1b1b1b;
 }
 
 .content{
   padding-left: 80px;
-  color: rgb(0, 0, 0);
+  color: rgb(235, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   width:55%;
