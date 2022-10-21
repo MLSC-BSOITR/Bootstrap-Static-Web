@@ -1,0 +1,9 @@
+h1 {
+  color: purple;
+  text-align: right;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}

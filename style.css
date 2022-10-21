@@ -4,6 +4,9 @@ body {
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .navigation {
@@ -78,7 +81,7 @@ top: 450px;
 .sign-up {
   top: 20px;
   text-decoration: none;
-  width: 139px;
+  width: 10%;
   color: azure;
   border: 2px solid transparent;
   border-radius: 20px; /* border curves*/
