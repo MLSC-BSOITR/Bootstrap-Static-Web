@@ -64,6 +64,10 @@ top: 450px;
   text-decoration: none;
 }
 
+.items > li > a:hover {
+  color: #e6a2f4;
+}
+
 .title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 55px;
