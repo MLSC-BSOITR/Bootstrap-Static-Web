@@ -39,6 +39,7 @@ form{
 form label{
     display: flex;
     margin-top: 20px;
+    margin-bottom: 5px;
     font-size: 18px;
 }
 form input{
@@ -53,10 +54,17 @@ input[type="submit"]{
     height: 35px;
     margin-top: 20px;
     border: none;
-    background-color: rgba(0, 216, 133, 0.833);
+    background-color: #00d885d4;
     color: whitesmoke;
     font-size: 18px;
+    cursor: pointer;
 }
+
+input[type="submit"]:hover {
+    box-shadow: 0px 0px 10px #035234d4;
+    transition: all 0.3s;
+}
+
 p{
     text-align: center;
     padding-top: 20px;
