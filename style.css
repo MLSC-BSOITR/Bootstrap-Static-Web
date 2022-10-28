@@ -44,10 +44,10 @@ top: 450px;
 
 .links:hover {
   background-color: #2f70a4;
-  color: #f2f2f2;
+  color: #e6a2f4;
   border-radius: 25px;
   border: #72b1e4;
-  padding: 7px;
+  /* padding: 7px; */
 }
 
 .items {
@@ -64,8 +64,12 @@ top: 450px;
   text-decoration: none;
 }
 
+.items li{
+  padding: 5px;
+  margin: 5px;
+}
+
 .items > li > a:hover {
-  color: #e6a2f4;
   transition: all 0.3s;
 }
 
