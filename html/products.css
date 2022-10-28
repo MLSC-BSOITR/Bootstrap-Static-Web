@@ -1,0 +1,13 @@
+body{
+    background: url("../assests/contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cards{
+    margin: 50px; 
+}
+.cardstyle{
+    background-color: rgba(0, 110, 255, 0.76);
+    padding: 20px;
+    margin: 20px;
+}

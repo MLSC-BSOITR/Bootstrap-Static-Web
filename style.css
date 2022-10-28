@@ -185,8 +185,6 @@ p {
   display: flex;
   float: right;
   width: 48%;
-  /* margin-top: -573px;
-  margin-right: -420px; */
 }
 
 .bold {
@@ -256,4 +254,19 @@ p {
   font-size: 1.2rem;
   line-height: 150%;
   font-family: 'Poppins', sans-serif;
+}
+div > .nav-content-up > a i{
+  padding: 10px 10px;
+  
+  
+}
+a{
+  color: white;
+}
+div div .right{
+  float: right;
+  margin-right: 30px;
+}
+.nav-icon{
+  display: flex;
 }

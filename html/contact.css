@@ -52,10 +52,11 @@
   
   .form-container {
     padding: 3rem 4rem;
-  border-radius: 20px;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.5);
+    display: block;
   }
-  
+
   a {
     text-decoration: none;
     display:flex;
@@ -107,5 +108,8 @@
     border: 2px solid #137afc;
     box-shadow: inset 130px 0 0 0 #fff;
     color: #137afc;
+  }
+  footer{
+    display: inline;
   }
   
