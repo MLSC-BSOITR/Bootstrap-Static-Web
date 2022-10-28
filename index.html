@@ -10,67 +10,83 @@
   <title>Cryptic</title>
 
   <link rel="Stylesheet" href="style.css">
-<!--   For the text Font -->
+  <!--   For the text Font -->
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   <!--For the play button link from BootstrapCDN-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- embedded playCDN for tailwind here -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+
   <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
 <body>
-  <div >
-<!--  Navbar    -->
-    <nav class="'navigation bg-zinc-900 flex flex-wrap">
+  <div>
+    <!--  Navbar    -->
+    <nav class="'navigation bg-zinc-900 flex flex-wrap justify-between items-center">
       <div class="flex justify-center p-3 space-x-2 items-center">
         <img class="logo hover:scale-150" src="assests/image.png"> <!-- alt ="Cryptic"-->
-        <span class="name"><a href='index.html'>Cryptic</a></span>
+        <span class="name"><a href='index.html' class="font-bold">Cryptic</a></span>
       </div>
-      <ul class="items m-auto justify-right">Home</a></li>
-        <li class="item-2"><a href="" class="links">Services</a></li>
-        <li class="item-3"><a href="" class="links">Products</a></li>
-        <li class="item-4"><a href="" class="links">Contacts</a></li>
-      <li><button class="sign-up"><a href="html/login.html" class="sign">SignUp / Login</a></button></li>
-      </ul>
-      </nav>    
-<!-- Main Content   -->
+      <div>
+        <ul class="items m-auto justify-right">
+          <li><a href="#" class="home">Home</a></li>
+          <li class="item-2"><a href="" class="links">Services</a></li>
+          <li class="item-3"><a href="" class="links">Products</a></li>
+          <li class="item-4"><a href="" class="links">Contacts</a></li>
+          <li><button class="sign-up"><a href="html/login.html" class="sign">SignUp / Login</a></button></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main Content   -->
 
-<div class="content-title">
-  <p>Our basic thesis for bitcoin
-    is that it is better than gold
-  </p>
-
-</div>
-  <div >
-    <div class="content">
-
-      <p class="Main_Paragraph">
-      
-        The world is awash in cash and cryptocurrencies, but Bitcoin is special, with the potential for
-        significant price gains, according to a new report from Fidelity. Bitcoin is a scarce “monetary good,”
-        superior in many ways to other cryptos, gold, and even government-issued money like the dollar,
-        the firm said. “We would expect Bitcoin to be a lot higher five to ten years from now".
+    <div class="content-title flex items-center">
+      <p>Our basic thesis for bitcoin
+        is that it is better than gold
       </p>
-      
-      <div class="play-btn">
-        <div class="btn"><i class="fa fa-play"></i></div>
-        <a class="more" href="#">LEARN MORE</a>
-      </div>
+
     </div>
+    <div class="content-wrapper mb-8">
+      <div class="content">
+
+        <p class="Main_Paragraph">
+
+          The world is awash in cash and cryptocurrencies, but Bitcoin is special, with the potential for
+          significant price gains, according to a new report from Fidelity. Bitcoin is a scarce “monetary good,”
+          superior in many ways to other cryptos, gold, and even government-issued money like the dollar,
+          the firm said. “We would expect Bitcoin to be a lot higher five to ten years from now".
+        </p>
+
+        <div class="play-btn p-3">
+          <div class="btn"><i class="fa fa-play"></i></div>
+          <div class="flex items-center justify-center">
+            <a class="more" href="#">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
       <div class="pic">
         <img src="assests/wallpaperNew.png">
-      </div> 
-      
+      </div>
+
     </div>
 
-<!-- Image -->
+    <!-- Image -->
     <!-- <div  id="copyright"><p>&copy;<p> Copyright 2022 <span class="bold"> Diya Gandhi & Vaishnavi Khot | Pvt.Ltd</span>. All Rights Reserved</div> -->
-     
-      <footer class="copyright text-center">
-        <div class="text-center p-4">
-          <p>&copy; Copyright 2022. <span class="bold"> Microsoft Learn Student Community BSIOTR | Pvt.Ltd</span>. All Rights Reserved
-        </div>
-      </footer>
-    </body>
+
+    <footer class="copyright flex items-center justify-center">
+      <div class="p-4 w-full">
+        <p class="text-center">&copy; Copyright 2022. <span class="bold"> Microsoft Learn Student Community BSIOTR |
+            Pvt.Ltd</span>. All
+          Rights Reserved
+      </div>
+    </footer>
+</body>
+
 </html>
