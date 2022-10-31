@@ -26,12 +26,10 @@ top: 450px;
 }
 
 .name {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-  color: aqua;
-  order: 1;
-  cursor: pointer;
-}
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 3rem !important;
+  color: aqua !important;
+  }
 
 .home {
   color: #f2f2f2;
@@ -39,7 +37,7 @@ top: 450px;
 
 .links {
   text-decoration: none;
-  color: #797f98;
+  color: #797f98 !important;
 }
 
 .links:hover {
@@ -51,21 +49,17 @@ top: 450px;
 }
 
 .items {
-  order: 2;
-  display: inline-flex;
-  list-style-type: style none;
-  justify-content: right;
-  gap: 2rem;
+  /* gap: 2rem; */
   font-weight: bold;
-  color: #797f98;
-  font-family: "Times New Roman", serif;
+  color: #797f98 !important;
+  font-family: "Times New Roman", serif !important;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.2rem !important;
   text-decoration: none;
 }
 
 .items > li > a:hover {
-  color: #e6a2f4;
+  color: #e6a2f4 !important; 
   transition: all 0.3s;
 }
 
