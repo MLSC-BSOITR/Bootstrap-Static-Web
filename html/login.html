@@ -1,29 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="./login.css">
+
 </head>
-
 <body>
-    <h1 align="center">Login</h1>
-    <div class="login-box">
-        <h3>Login using Email and Password</h3>
-        <hr>
-        <form action="">
-            <label>Email ID</label>
-            <input type="email" placeholder="Email ID" required>
-            <label>Password</label>
-            <input type="password" placeholder="Password" required>
-            <input type="submit" value="Login">
-        </form>
-    </div>
-    <p>Do not have an account? <a href="signup.html"><br>Sign Up Here</a></p>
+<!-- partial:index.partial.html -->
+<div class="box-form">
+	<div class="left">
+		<div class="overlay">
+			<h1>CRYPTIC</h1>
+			<br>
+			<h3>Our basic thesis for bitcoin is that it is better than gold</h3>
+			<br><br>
+			<h4>The world is awash in cash and cryptocurrencies, but Bitcoin is special,<br>
+			 with the potential for significant price gains, according to a new report from Fidelity.<br>
+			 Bitcoin is a scarce “monetary good,” superior in many ways to other cryptos, gold,<br>
+			 and even government-issued money like the dollar, the firm said.<br>
+			 “We would expect Bitcoin to be a lot higher five to ten years from now".
+			</h4>
+		
+		</div>
+	</div>
+	
+	
+		<div class="right">
+			<form>
+				<h5>Login</h5>
+				<p>Don't have an account? <a href="signup.html">Create Your Account</a> it takes less than a minute</p>
+				<div class="inputs">
+					<input type="text" placeholder="Username" required>
+					<br>
+					<input type="password" placeholder="Password" required>
+				</div>
+			
+				<br><br>
+			
+			
+				<br>
+				<button type="submit">Login</button>
+			</form>	
+		</div>
+	
+</div>
+<!-- partial -->
+  
 </body>
-
 </html>
